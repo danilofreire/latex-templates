@@ -1,0 +1,3 @@
+# LaTeX Templates
+
+LaTeX templates I like. This repository is for personal use only, but feel free to fork or download it. The templates use [Linux Libertine](http://www.linuxlibertine.org/) and [Inconsolata](https://fonts.google.com/specimen/Inconsolata) fonts, British English spelling, `darkblue` colour for links, double spacing, back references, and numbered sections. The article, thesis, CV and cover letter templates are my own; the beamer template is the cool [mtheme](https://github.com/matze/mtheme) by [Matthias Vogelgesang](https://bloerg.net/); the [a0poster class](https://www.latextemplates.com/template/a0poster-portrait-poster) was created by [Gerlinde Kettl and Matthias Weiser](mailto:tex@kettl.de). Thanks to the authors for their great work!

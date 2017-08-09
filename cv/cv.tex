@@ -1,0 +1,253 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\usepackage[UKenglish]{babel}
+\usepackage[UKenglish]{isodate}
+\usepackage{libertine}
+\usepackage[utf8]{inputenc}
+\exhyphenpenalty=10000
+\hyphenpenalty=10000
+\widowpenalty=10000
+\clubpenalty=10000
+
+
+% Set your name here
+\def\name{Danilo Freire}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://danilofreire.com/DaniloFreireCV.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = darkblue,
+  pdfauthor = {\name},
+  pdfkeywords = {political violence, prison gangs, agent-based modelling},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+	King's College London \\
+	Department of Political Economy \\
+	Strand Campus \\
+	London WC2R 2LS
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+	\begin{tabular}{ll}
+		Email:          & \href{mailto:danilofreire@gmail.com}{danilofreire@gmail.com}          \\
+		Homepage:       & \href{http://danilofreire.com/}{http://danilofreire.com/}             \\
+		Google Scholar: & \href{http://bit.do/danilofreire}{http://bit.do/danilofreire}         \\
+		GitHub:         & \href{http://github.com/danilofreire}{http://github.com/danilofreire}
+	\end{tabular}
+\end{minipage}
+
+\section*{Research Interests}
+
+\begin{itemize}
+	\item Substantive: Political Violence, Prison Gangs, Brazilian Politics, Public Choice Theory
+	\item Methodological: Bayesian Data Analysis, Machine Learning, Meta-Analysis, Survey Experiments
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+	\item PhD in Political Economy, King's College London, expected 2018.
+	\item MA in International Relations, The Graduate Institute Geneva, 2014.
+	\item MA in Political Science, University of S\~{a}o Paulo, 2011.
+	\item BA in Social Sciences, University of S\~{a}o Paulo, 2007.
+\end{itemize}
+
+\section*{Publications}
+
+\subsection*{Peer-Reviewed Articles}
+
+\begin{itemize}
+	\item \href{https://osf.io/8tmhe/}{Evaluating the Effect of Homicide Prevention Strategies in S\~{a}o Paulo, Brazil: A Synthetic Control Approach}, 2016. Forthcoming, \textit{Latin American Research Review}, 2018, 53 (2). \href{https://github.com/danilofreire/homicides-sp-synth}{Replication files}.
+	\item \href{http://www.iapss.org/wp-content/uploads/2014/10/ELA1.1_2.Lack-of-Preferences-Political-Trust-and-Education-Levels.pdf}{Lack of Preferences, Political Trust and Education Levels: Alternative Explanations for Invalid Votes in Brazilian Elections}. Joint with G. Arbache and P. Rodrigues. \textit{Encuentro Latinoamericano}, 2015, 1 (1), 29--50. \href{https://github.com/danilofreire/invalid-votes-brazil}{Replication files}.
+	\item \href{http://recyt.fecyt.es/index.php/recp/article/view/37638}{Between Ballot Boxes and Guns: The Competitiveness of the Executive Branch and Civil Wars, 1976-2000}. \textit{Revista Espa\~{n}ola de Ciencia Pol\'{i}tica}, 2014, 36, 33--60. \href{http://dx.doi.org/10.7910/DVN/NSDUYG}{Replication files}.
+	\item \href{http://www.uel.br/revistas/uel/index.php/mediacoes/article/view/12617/10995}{Os Regimes Pol\'{i}ticos e as Guerras Civis: Uma Discuss\~{a}o Metodol\'{o}gica {[}Political Regimes and Civil Wars: A Methodological Discussion{]}}. \textit{Media\c{c}\~{o}es}, 2012, 17 (1), 235--252.
+	\item \href{http://www.revistaintellector.cenegri.org.br/ed2012-17/danilofreire-2012-17.pdf}{Guerras Civis: Um Balan\c{c}o da Literatura Quantitativa {[}Civil Wars: A Review of the Quantitative Literature{]}}. \textit{Intellector}, 2012, 9 (17), 1--38.
+\end{itemize}
+
+\subsection*{Book Chapters}
+
+\begin{itemize}
+	\item \href{http://danilofreire.com/articles/chapter-prison-gangs.pdf}{Prison Gangs}. Joint with D. Skarbek. In: Griffin, Hayden; Woodward, Vanessa (ed.). \textit{Handbook of Corrections in the United States}. London: Routledge. Forthcoming, 2016.
+	\item \href{http://ffn-brasil.org.br/novo/PDF-ex/Publicacoes/NGP.pdf}{A Nova Gest\~{a}o P\'{u}blica e a Qualidade da Democracia {[}The New Public Administration and the Quality of Democracy{]}}. In: Erkens, Rainer (ed.). \textit{Nova Gest\~{a}o P\'{u}blica}. S\~{a}o Paulo: Instituto Friedrich Naumann, 2010, 9--15.
+\end{itemize}
+
+\subsection*{Other Publications}
+
+\begin{itemize}
+	\item \href{https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf}{Peering at Open Peer Review}. \textit{The Political Methodologist}, 2015, 23 (1), 6--11.
+	\item \href{http://www.scielo.br/readcube/epdf.php?doi=10.1590/1981-38212015000300026&pid=S1981-38212015000300178&pdf_path=bpsr/v9n3/1981-3821-bpsr-9-3-0178.pdf&lang=en}{Book Review: Causal Inference, Shaolin-Style: `Mastering Metrics' by Joshua D. Angrist and J\"{o}rn-Steffen Pischke}. \textit{Brazilian Political Science Review}, 2015, 9 (3), 178--185.
+	\item \href{http://dx.doi.org/10.6084/m9.figshare.1209203}{Entering the Underworld: Prison Gang Recruitment in S\~{a}o Paulo's Primeiro Comando da Capital}. Geneva: Master's Degree Thesis in International Relations, The Graduate Institute of International and Development Studies, 2014, 97p.
+	\item \href{http://seer.bce.unb.br/index.php/MED/article/view/7505/6497}{Book Review: `Why Nations Fail' by Daron Acemoglu and James Robinson}. \textit{Meridiano47}, 2013, 14 (135).
+	\item \href{http://dx.doi.org/10.6084/m9.figshare.963082}{Entre Urnas e Armas: A Competitividade do Executivo e as Guerras Civis, 1976-2000 {[}Between Ballot Boxes and Guns: The Competitiveness of the Executive Branch and Civil Wars, 1976-2000{]}}. S\~{a}o Paulo: Master's Degree Thesis in Political Science, University of S\~{a}o Paulo, 2011, 204p. \href{http://dx.doi.org/10.6084/m9.figshare.963183}{Replication files}.
+\end{itemize}
+
+\subsection*{Working Papers}
+
+\begin{itemize}
+	\item \href{https://osf.io/se2jr}{Beasts of Prey or Rational Animals?: Private Governance in Brazil's \emph{Jogo do Bicho}}, 2017. Under review.
+	\item \href{https://osf.io/n5jd8}{congressbr: An R Package for Analysing Data from Brazil's Chamber of Deputies and Federal Senate}, 2017. Under review.
+	\item The Political Economy of Carnaval, 2017.
+	\item \href{http://danilofreire.com/articles/entering.pdf}{Entering the Underworld: Prison Gang Recruitment in S\~{a}o Paulo's Primeiro Comando da Capital}, 2015.
+\end{itemize}
+
+\section*{Software}
+
+\begin{itemize}
+	\item \href{https://cran.r-project.org/web/packages/congressbr}{congressbr}. R package that returns tidy data from the APIs of the Brazilian Federal Senate and Chamber of Deputies. Joint with Robert McDonnell and Guilherme Duarte.
+\end{itemize}
+
+\section*{Fellowships and Awards}
+
+\begin{itemize}
+	\item Humane Studies Fellowship, Institute for Humane Studies, 2017--2018.
+	\item Hayek Fund for Scholars Award, Institute for Humane Studies, 2017.
+	\item Adam Smith Fellowship, Mercatus Center, George Mason University, 2017--2018.
+	\item Adam Smith Fellowship, Mercatus Center, George Mason University, 2016--2017.
+	\item PhD Scholarship, Institute for Humane Studies, 2016--2017.
+	\item Graduate School International Research Studentship, King's College London, 2015--2018.
+	\item CAPES--Brazilian Ministry of Education. Scholarship for PhD Studies Abroad (declined), 2015--2018.
+	\item MA Scholarship, Graduate Institute Geneva, 2012--2014.
+	\item CAPES--Brazilian Ministry of Education. Scholarship for MA Studies, 2009--2011.
+\end{itemize}
+
+\section*{Selected Presentations}
+
+\begin{itemize}
+	\item \href{https://osf.io/se2jr}{Beasts of Prey or Rational Animals?: Private Governance in Brazil's \emph{Jogo do Bicho}}. \textit{VI Oxbridge Conference on Brazilian Studies}, University of Cambridge, 2017.
+	\item \href{http://paperroom.ipsa.org/papers/paper_37733.pdf}{National Interest Groups and Transnational Governance: Brazilian Sugarcane Producers and Biofuel Standards}. Joint with Guilherme Arbache and Pietro Rodrigues. \textit{XXIII IPSA World Congress}, University of Montreal, 2014.
+	\item \href{http://paperroom.ipsa.org/papers/paper_36099.pdf}{Invalid Votes, Political Efficacy and Lack of Preferences in Brazilian Elections}. Joint with Guilherme Arbache and Pietro Rodrigues. \textit{XXIII IPSA World Congress}, University of Montreal, 2014.
+	\item \href{http://www.forumcienciapolitica.com.br/anais/2013/especific_files/papers/6NFN.pdf?v=0310}{Votos Inv\'{a}lidos e Confian\c{c}a Pol\'{i}tica no Brasil. {[}Invalid Votes and Political Trust in Brazil{]}}. \textit{III Brazilian Forum of Political Science}, Federal University of Paran\'{a}, 2013 (with Guilherme Arbache).
+	\item \href{http://www.encontropdpp.sinteseeventos.com.br/ST15.zip}{Participa\c{c}\~{a}o em Protestos e Percep\c{c}\~{a}o sobre as Institui\c{c}\~{o}es Democr\'{a}ticas. {[}Protest Participation and Perceptions on Political Institutions{]}}.\textit{ Particiation, Democracy and Public Policies - International Meeting}, Paulista University, 2013 (with Guilherme Arbache).
+	\item \href{http://www.ufrgs.br/sncp/edicoes-anteriores/2012/politica-internacional}{Os Fatores Pol\'{i}ticos e a Dura\c{c}\~{a}o das Guerras Civis {[}Political Factors and Civil War Duration{]}}. Joint with Umberto Mignozzetti. \textit{IV National Seminar of Political Science}, Federal University of Rio Grande do Sul, 2012.
+	\item \href{http://ena2011.abri.org.br/index.php?p=programacao\&n=10}{Entre Urnas e Armas: A Competitividade do Executivo e as Guerras Civis, 1976-2000 {[}Between Ballot Boxes and Guns: The Competitiveness of the Executive Branch and Civil Wars, 1976-2000{]}}. \textit{III Meeting of the Brazilian Association of International Relations}, University of S\~{a}o Paulo, 2011.
+\end{itemize}
+
+\section*{Teaching}
+
+\begin{itemize}
+	\item Lecturer, Political Economy and Institutions (Graduate). Centro de Estudios Superiores Online de Madrid Manuel Ayau (OMMA) and Universidad Francisco Marroquín, 2017.
+	\item Teaching Assistant, Principles of Economics II -- Macroeconomics (Undergraduate). Professor Konstantinos Matakos, King's College London, 2017.
+	\item Teaching Assistant, Principles of Economics I -- Microeconomics (Undergraduate). Professor David Skarbek, King's College London, 2016.
+	\item Teaching Assistant, Mathematics for Political Science (Extra-Curricular). Centre for the Studies of International Negotiations, University of S\~{a}o Paulo, 2011.
+	\item Teaching Assistant, Classical Political Theory (Undergraduate). Professor Eunice Ostrensky, University of S\~{a}o Paulo, 2010.
+\end{itemize}
+
+\section*{Skills}
+
+\subsection*{Software}
+
+\begin{itemize}
+	\item R, Stata, SPSS, Stan, JAGS, EViews, Atlas.ti, NetLogo, git, \LaTeX{}.
+\end{itemize}
+
+\subsection*{Languages}
+
+\begin{itemize}
+	\item Portuguese (native), English (fluent), Spanish (fluent), German (intermediate), French (beginner).
+\end{itemize}
+
+\section*{Selected Additional Training}
+
+\begin{itemize}
+	\item European Field Experiments Summer School, University of Palermo, 2017.
+	\item Text Analysis Using R, London School of Economics, 2017.
+	\item Data Science Specialisation, John Hopkins University on Coursera, 2015.
+	\item Multi-Level Statistical Modelling, IPSA Summer School, 2014
+	\item Modern Regression Analysis, IPSA Summer School, 2012
+	\item Mixed Methods Design, IPSA Summer School, 2011.
+	\item Policies for Growth, World Bank Institute, 2011.
+\end{itemize}
+
+\section*{Service}
+
+\begin{itemize}
+	\item Co-editor: \textit{Leviathan}, University of S\~{a}o Paulo, 2012--2016.
+	\item Referee: \textit{Latin American Research Review}, \textit{Leviathan}, \textit{Politikon}, \textit{The Social Science Journal}.
+\end{itemize}
+
+\section*{References}
+
+\begin{itemize}
+	\item David Skarbek. Senior Lecturer, King's College London. Email: \href{mailto:david.skarbek@kcl.ac.uk}{david.skarbek@kcl.ac.uk}
+	\item Konstantinos Matakos. Lecturer, King's College London. Email: \href{mailto:konstantinos.matakos@kcl.ac.uk}{konstantinos.matakos@kcl.ac.uk}
+	\item Ravi Bhavnani. Professor, The Graduate Institute Geneva. Email: \href{mailto:ravi.bhavnani@graduateinstitute.ch}{ravi.bhavnani@graduateinstitute.ch}
+	\item Jo\~{a}o Paulo C\^{a}ndia Veiga. Assistant Professor, University of S\~{a}o Paulo. Email: \href{mailto:candia@usp.br}{candia@usp.br}
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+	\begin{footnotesize}
+		Last updated: \today
+	\end{footnotesize}
+\end{center}
+
+\end{document}
