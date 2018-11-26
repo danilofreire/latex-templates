@@ -7,7 +7,7 @@
 \usepackage{lmodern}
 \usepackage{libertine}
 \usepackage[libertine]{newtxmath}
-\usepackage[scale=0.825]{FiraMono}
+\usepackage{FiraMono}
 \usepackage[authoryear]{natbib}
 \usepackage{babelbib}
 \usepackage{booktabs, makecell, longtable}
@@ -35,7 +35,6 @@
 \makeatother
 \usepackage{setspace}
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
-\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{dcolumn}
 \usepackage{float}
@@ -46,15 +45,23 @@
 \usetikzlibrary{positioning}
 \usepackage{mathtools}
 \usepackage{caption}
+\usepackage{ifthen}
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \cleanlookdateon
 \exhyphenpenalty=1000
 \hyphenpenalty=1000
-\widowpenalty=10000
+\widowpenalty=1000
 \clubpenalty=1000
-\onehalfspacing
-%\urlstyle{same}  % don't use monospace font for urls
+\usepackage[backref,pagebackref]{hyperref}
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+	\ifcase #1 (Not cited.)%
+	\or        Cited on page~#2.%
+	\else      Cited on pages~#2.%
+	\fi}
+\renewcommand{\backreftwosep}{ and~}
+\renewcommand{\backreflastsep}{ and~}
 
 \hypersetup{pdftitle={Article Title},
 	pdfauthor={Your Name},
